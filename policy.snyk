@@ -1,0 +1,133 @@
+ignore:
+    'SNYK-DEBIAN11-PCRE2-2808697':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-PCRE2-2808704':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766283':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766285':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766288':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766292':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766308':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766310':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766315':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766316':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766356':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766359':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766368':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766381':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766382':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766385':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766386':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766389':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766399':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766407':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766416':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766420':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766425':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766429':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766432':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-MARIADB105-2766434':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-CURL-2805482':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-CURL-2813769':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-AOM-1290331':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-AOM-1298721':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-AOM-1300249':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-CURL-2804164':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z
+    'SNYK-DEBIAN11-CURL-2813773':
+      - '*':
+          reason: None Given
+          expires: 2023-04-04T17:33:45.004Z

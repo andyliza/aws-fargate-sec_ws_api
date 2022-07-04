@@ -1,4 +1,4 @@
-FROM ws-base-image
+FROM 394576591249.dkr.ecr.ap-southeast-1.amazonaws.com/ws-base-image:latest
 COPY . .
 RUN apt update && apt install ncat -y
 EXPOSE 443
