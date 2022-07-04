@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-southeast-1:394576591249:task-definition/ReadTaskDefinition:39"
+        TaskDefinition: "arn:aws:ecs:ap-southeast-1:394576591249:task-definition/ReadTaskDefinition:40"
         LoadBalancerInfo:
           ContainerName: "Fargate-Sec"
           ContainerPort: 80
