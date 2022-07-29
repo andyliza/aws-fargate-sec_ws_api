@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::394576591249:role/Fargate-Sec-wr-ExecutionRole",
+  "executionRoleArn": "arn:aws:iam::<<your account ID>>:role/Fargate-Sec-ExecutionRole",
   "containerDefinitions": [
     {
       "dnsSearchDomains": [],
@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/Fargate-Sec-wr-TaskDefinition",
+          "awslogs-group": "/ecs/Fargate-Sec-TaskDefinition",
           "awslogs-region": "ap-southeast-1",
           "awslogs-stream-prefix": "ecs"
         }
@@ -38,22 +38,22 @@
         "initProcessEnabled": null
       },
       "cpu": 0,
-      "environment": [
+      "secrets": [
         {
-          "name": "DB",
-          "value": "unicorns"
+          "valueFrom": "arn:aws:secretsmanager:ap-southeast-1:<<ACCOUNT ID>>:secret:<<Secret Code DB>>",
+          "name": "DB"
         },
         {
-          "name": "DB_Endpoint",
-          "value": "sd7vu5k3an74z0.clzzftdjcbac.ap-southeast-1.rds.amazonaws.com"
+          "valueFrom": "arn:aws:secretsmanager:ap-southeast-1:<<ACCOUNT ID>>:secret:<<Secret Code for DBENDPOINT>>",
+          "name": "DB_Endpoint"
         },
         {
-          "name": "Password",
-          "value": "containersec"
+          "valueFrom": "arn:aws:secretsmanager:ap-southeast-1::<<ACCOUNT ID>>:secret:<<Secret Code for PASSWORD>>",
+          "name": "Password"
         },
         {
-          "name": "User",
-          "value": "awsuser"
+          "valueFrom": "arn:aws:secretsmanager:ap-southeast-1:<<ACCOUNT ID>>:secret:<<Secret Code for USER>>",
+          "name": "User"
         }
       ],
       "resourceRequirements": null,
@@ -67,7 +67,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "394576591249.dkr.ecr.ap-southeast-1.amazonaws.com/ws-api:latest",
+      "image": "<<your account ID>>.dkr.ecr.ap-southeast-1.amazonaws.com/ws-api:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -89,7 +89,7 @@
   ],
   "placementConstraints": [],
   "memory": "512",
-  "taskRoleArn": "arn:aws:iam::394576591249:role/Fargate-Sec-wrTaskRole",
+  "taskRoleArn": "arn:aws:iam::<<your Account ID>>:role/Fargate-Sec-TaskRole",
   "compatibilities": [
     "EC2",
     "FARGATE"
